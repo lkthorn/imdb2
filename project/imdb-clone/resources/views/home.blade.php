@@ -39,9 +39,16 @@
             @endif
             </div>
 
-                <div class="fixed top-1 left-0 px-6 py-2 sm:block">
+
+            <!-- LOGO -->
+        <div class="fixed top-1 left-0 px-6 py-2 sm:block">
                 <h1 class="text-lger w-3 text-gray-700 dark:text-gray-500">IMDB</h1>
-                </div>
+        </div>
+
+
+                
+
+
 
 
     </body>
