@@ -29,7 +29,6 @@ class MoviesController extends Controller
             return [$genre['id'] => $genre['name']];
         });
 
-
         dump($popularMovies);
 
         return view('index', [
@@ -68,7 +67,7 @@ class MoviesController extends Controller
      */
     public function show($id)
     {
-    //
+        return view('movie');
     }
 
     /**
