@@ -30,7 +30,7 @@
                                         <div class="mr-8">
                                             <div class="text-orange-300">{{$cast['name']}}</div>
                                             <div class="text-gray-300">As</div>
-                                            <div class="text-green-300">{{$cast['character']}}</div>
+                                            <div class="text-green-600">{{$cast['character']}}</div>
                                         </div>
                                 @endif
                         @endforeach
