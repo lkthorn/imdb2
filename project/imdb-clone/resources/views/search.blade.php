@@ -1,18 +1,17 @@
-<body>
 <form action="{{ route('search') }}" method="GET">
-    <input type="text" name="input" required/>
+    <input type="text" name="search" required/>
     <button type="submit">Search</button>
 </form>
 
-@if($movies->isNotEmpty())
-    @foreach ($movies as $movie)
-        <div class="movies-list">
-            <p>{{ $movie->title }}</p>
+@if($posts->isNotEmpty())
+    @foreach ($posts as $post)
+        <div class="post-list">
+            <p>{{ $post->title }}</p>
+            <img src="{{ $post->image }}">
         </div>
     @endforeach
 @else 
     <div>
-        <h2>No movies found</h2>
+        <h2>No posts found</h2>
     </div>
 @endif
-</body>
